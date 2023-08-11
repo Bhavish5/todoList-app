@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.app{
+    width: 50%;
+    margin: 10vh auto;
+    text-align: center;
+    background-color: white;
+}
+input{
+    margin: 10px;
+    width: 80%;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+button{
+    width: 10%;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    padding: 5px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+ul{
+    list-style-type: none;
+    text-align: left;
+    width: 80%;
+    margin-left: 5%;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+.delete-btn{
+    color: red;
+    cursor: pointer;
+    display: flex;
+}
