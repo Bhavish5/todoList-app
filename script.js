@@ -10,6 +10,7 @@ function addTask(){
     taskList.appendChild(li);
     task = "";
     document.getElementById("input").value = task;
+    document.getElementById("input").focus();
 }
 function deleteTask(taskElement){
     var taskList = document.getElementById("taskList");
