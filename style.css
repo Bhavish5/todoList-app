@@ -5,11 +5,13 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+body{
+    background-color: red;
+}
 .app{
     width: 50%;
     margin: 10vh auto;
     text-align: center;
-    background-color: white;
 }
 input{
     margin: 10px;
@@ -41,9 +43,19 @@ ul{
 li{
     display: flex;
     justify-content: space-between;
+    font-weight: bolder;
 }
 .delete-btn{
-    color: red;
+    color: white;
+    margin: 1px;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: black;
     cursor: pointer;
     display: flex;
+    border: 1px solid black;
+}
+.delete-btn:hover{
+    background-color: white;
+    color: black;
 }
